@@ -17,7 +17,7 @@ import message from "./controllers/message.controller.js";
 
 const io = new Server(process.env.SOCKET_PORT || 4001, {
   cors: {
-    origin: "http://localhost:1234",
+    origin: "http://localhost:5173",
   },
 });
 const app = express();
